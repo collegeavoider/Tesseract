@@ -51,7 +51,7 @@ var currentData;
 var submittedAlready = false;
 
 var getTriviaQuestions = function() {
-	fetch("http://localhost:8080/getTriviaQuestion")
+	fetch("/getTriviaQuestion")
 		.then(response => response.json())
 		.then(data => {
 			var question = data.results[0].question;
@@ -87,7 +87,7 @@ var changeColorOn = function(answer, req, res) {
 	var givenSolutions = {
 		question: document.getElementById("trivia-questions").innerText, answer: document.getElementById(answer).innerText
 	};
-	fetch("http://localhost:8080/checkanswer", {
+	fetch("/checkanswer", {
 		method: "POST",
 		headers:{
 			"Content-Type": "application/json"
