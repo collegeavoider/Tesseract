@@ -1,0 +1,27 @@
+.center {
+	text-align:center;
+}
+.backcolor {
+	background-color:grey;
+}
+.border {
+	border:2px solid black;
+}
+.collapse {
+	border-collapse:collapse
+}
+.usFlag {
+	width:300px;
+}
+.flags {
+	width:150px;
+}
+.hidden {
+	visibility:hidden;
+}
+.correct {
+	background-color:green;
+}
+.wrong {
+	background-color:red;
+}
