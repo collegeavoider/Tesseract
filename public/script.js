@@ -116,7 +116,8 @@ var changeColorOn = function(answer, req, res) {
 			submittedAlready = true;
 		}	
 		})
-		
+	//college avoided
+	//unstaged
 }
 
 getTriviaQuestions();
